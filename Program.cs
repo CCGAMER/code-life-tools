@@ -8,15 +8,23 @@ namespace code_life_tools
     public class Program
     {
         /// <summary>
-        /// Main program entry point.s
+        /// Main program entry point.
         /// </summary>
         public static void Main(string[] args)
+        {
+            
+        }
+      
+        /// <summary>
+        /// Parse Integers into Currency Implemented strings test.
+        /// </summary>
+        public static void ParseIntToCurrencyImplementation()
         {
             Console.WriteLine("LKR. " + StringTools.ParseIntToCurrency(100000000, StringTools.DigitSeperationType.European).ToString());
             Console.ReadLine();
         }
-      
-        /// <summary>s
+
+        /// <summary>
         /// Language Integrated Queries vs Loops test. Loops win, because LINQ is slower (sometimes, most of the time)
         /// </summary>
         public static void LINQvsLoops(string text)
